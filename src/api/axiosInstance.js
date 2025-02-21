@@ -5,7 +5,7 @@ import { HandleAxiosError } from "./axioserror";
 
 const axiosInstance = axios.create({
   baseURL: import.meta.env.VITE_API_URL,
-  // baseURL: "https://api.zanithpay.com/",
+  // baseURL: "https://api.quickopay.in/",
   // baseURL: "http://192.168.1.4:5000/",
   headers: {
     "Content-Type": "application/json",
